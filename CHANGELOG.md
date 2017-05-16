@@ -2,6 +2,13 @@
 
 step follows [Semantic Versioning][semver].
 
+## 1.0.1 - 2017-05-16
+
+### Fixed
+
+* Fixed parallel() and group() returning undefined instead of null for error
+* Fixed parallel() and group() only returning one argument
+
 ## 1.0.0 - 2017-01-05
 
 ### Improved
