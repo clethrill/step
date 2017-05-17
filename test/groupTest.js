@@ -59,7 +59,7 @@ Step(
         if(err) throw err;
         fulfill("test3: " + num);
         var group = this.group();
-        
+
         setTimeout((function(callback) { return function() { callback(null, 1); } })(group()), 100);
         group()(null, 2);
         setTimeout((function(callback) { return function() { callback(null, 3); } })(group()), 0);
